@@ -13,11 +13,16 @@ subsets: ["latin"],
 });
 
 export const metadata: Metadata = {
-metadataBase: new URL("https://umi-general-supplies-web.vercel.app"),
-title: {
-default: "UMI GENERAL SUPPLIES | Building Materials Supplier in Kenya",
-template: "%s | UMI GENERAL SUPPLIES",
-},
+  metadataBase: new URL("https://umi-general-supplies-web.vercel.app"),
+
+  verification: {
+    google: "aRwjNmyQCEB4vqIa_pFzm-lTTneDTdqbxUqJSp8YSqk",
+  },
+
+  title: {
+    default: "UMI GENERAL SUPPLIES | Building Materials Supplier in Kenya",
+    template: "%s | UMI GENERAL SUPPLIES",
+  },
 description:
 "UMI GENERAL SUPPLIES supplies quality building stones, ballast, reinforcement steel, building sand, cement and other construction materials in Mombasa, Kilifi, Malindi and across Kenya.",
 keywords: [
